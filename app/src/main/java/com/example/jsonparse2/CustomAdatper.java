@@ -1,6 +1,7 @@
 package com.example.jsonparse2;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,7 +52,12 @@ public class CustomAdatper extends RecyclerView.Adapter<CustomAdatper.Viewholder
 
     @Override
     public void onBindViewHolder(@NonNull Viewholder holder, int position) {
-        holder.profileImg.setImageResource(position);
+
+        Resources resources = context.getResources();
+        int resourceID = resources.getIdentifier(profileImage.get(position),
+                "drawable",context.getPackageName());
+
+        holder.profileImg.setImageResource(resourceID);
         holder.name.setText(staffName.get(position));
         holder.email.setText(emails.get(position));
         holder.contactNo.setText(contactNo.get(position));
