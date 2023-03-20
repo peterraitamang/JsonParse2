@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:background="#78ACE1">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/img"/>
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/profile_image"/>
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_name"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/txt_contactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact no"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txt_email"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/txt_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txt_contactNo"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5sp"/>
+
+
+</RelativeLayout>

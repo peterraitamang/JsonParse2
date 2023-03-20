@@ -1,0 +1,47 @@
+{
+  "Staff Members":
+          [
+            {
+              "image": "img.png",
+              "name": "Peter Rai",
+              "email": "peter@gmail.com",
+              "contact no": "984421212",
+              "address": "Jawalakhel"
+            },
+            {
+              "image": "img2",
+              "name": "John Rai",
+              "email": "john@gmail.com",
+              "contact no": "982312311",
+              "address": "Lagankhel"
+            },
+            {
+              "image": "img3",
+              "name": "Joel Rai",
+              "email": "joel@gmail.com",
+              "contact no": "982312342",
+              "address": ""
+            },
+            {
+              "image": "img4",
+              "name": "Ujjwal Thapa",
+              "email": "ujjwal@gmail.com",
+              "contact no": "982312311",
+              "address": "Lagankhel"
+            },
+            {
+              "image": "img5",
+              "name": "Rabin Thapa",
+              "email": "rabin@gmail.com",
+              "contact no": "982312311",
+              "address": "Lagankhel"
+            },
+            {
+              "image": "img6",
+              "name": "Esther Gurung",
+              "email": "esther@gmail.com",
+              "contact no": "982312311",
+              "address": "Panipokhari"
+            }
+          ]
+}
